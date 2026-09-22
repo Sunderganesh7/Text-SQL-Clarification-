@@ -1,8 +1,4 @@
-Yes. The README you pasted is for **CarbonWise AI**, not your **Text-to-SQL Clarification** project. Don't use that one.
 
-For your Text-to-SQL repository, use this cleaner README:
-
-````markdown
 # Text-to-SQL Clarification & RAG System
 
 An AI-powered Text-to-SQL system that converts natural language questions into SQL queries while using schema-aware clarification, retrieval-augmented generation (RAG), query validation, and safety controls to improve SQL reliability.
@@ -312,12 +308,5 @@ Potential future improvements include:
 * Advanced analytics and visualization
 * Production-grade database scaling
 
-## 👨‍💻 Project
 
-**Text-to-SQL Clarification & RAG System**
 
-Built as an AI-powered database interaction and natural-language analytics project.
-
-```
-Also, **don't put your `.env` contents or API keys in this README.**
-```
