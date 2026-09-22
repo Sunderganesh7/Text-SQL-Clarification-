@@ -1,0 +1,14 @@
+.env
+__pycache__/
+.venv/
+node_modules/
+# ChromaDB
+data/chroma/
+
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+node_modules/
+*.pyc

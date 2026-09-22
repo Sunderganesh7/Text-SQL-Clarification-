@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+pydantic
+python-dotenv
+chromadb
+sentence-transformers
+httpx
+pandas
+openpyxl
+python-multipart
+sqlglot

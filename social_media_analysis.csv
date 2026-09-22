@@ -1,0 +1,201 @@
+user_id,country,gender,age,likes,comments,shares,profession,hobby,tbl_3secondvideoviews,tbl_1minutevideoviews
+U001,Germany,Male,50,4689,640,642,Scientist,Sports,5517,3790
+U002,South Africa,Male,60,1062,607,888,Scientist,Cycling,8682,1302
+U003,USA,Female,57,1173,170,1664,Developer,Painting,7140,381
+U004,India,Male,21,2649,275,78,Doctor,Gaming,4600,3593
+U005,USA,Female,32,4321,491,1153,Designer,Sports,9520,1275
+U006,Canada,Non-binary,60,1865,607,1313,Musician,Gaming,8108,426
+U007,South Africa,Female,37,1415,714,248,Teacher,Cooking,5436,4696
+U008,UK,Female,56,2216,172,1765,Developer,Reading,7980,1466
+U009,France,Male,17,2474,653,1168,Artist,Painting,7437,1065
+U010,Canada,Male,61,2373,321,1045,Teacher,Sports,7042,1531
+U011,Australia,Non-binary,53,2164,510,1138,Developer,Sports,913,4690
+U012,Brazil,Male,46,4055,442,40,Scientist,Music,6010,2203
+U013,Germany,Non-binary,28,2347,362,1231,Artist,Gaming,2417,2071
+U014,Australia,Male,27,396,427,1098,Teacher,Painting,4175,3008
+U015,France,Non-binary,30,3458,760,214,Entrepreneur,Sports,4538,303
+U016,USA,Female,63,4758,236,1700,Entrepreneur,Painting,1286,3119
+U017,Germany,Female,35,3966,742,1078,Teacher,Music,1500,3891
+U018,Australia,Female,61,2165,684,1695,Designer,Cycling,7023,2747
+U019,India,Male,38,3271,27,1995,Doctor,Traveling,2760,4673
+U020,South Africa,Female,27,1149,160,1657,Developer,Music,1094,4378
+U021,South Africa,Non-binary,45,31,993,1150,Doctor,Cycling,8676,4345
+U022,France,Male,60,853,263,1679,Doctor,Cooking,6995,1393
+U023,Japan,Non-binary,62,1838,315,1239,Entrepreneur,Traveling,3923,3601
+U024,India,Non-binary,48,3561,654,355,Musician,Sports,7911,1061
+U025,India,Male,47,1945,545,373,Scientist,Traveling,7894,4660
+U026,France,Female,27,270,548,39,Artist,Painting,5656,2237
+U027,UK,Male,52,2655,245,721,Doctor,Painting,9502,3227
+U028,India,Male,21,2073,102,927,Teacher,Gaming,4029,2901
+U029,France,Female,61,344,321,94,Doctor,Traveling,4844,4921
+U030,USA,Female,57,1963,860,1947,Scientist,Traveling,7958,844
+U031,South Africa,Female,13,2619,797,489,Doctor,Photography,9340,3496
+U032,Australia,Non-binary,39,2005,617,1042,Designer,Gaming,1214,920
+U033,France,Female,32,4243,721,964,Designer,Cycling,5083,3129
+U034,Brazil,Female,27,3891,656,1073,Writer,Dancing,1923,3936
+U035,Canada,Male,29,2390,997,529,Developer,Cooking,7550,2685
+U036,Germany,Non-binary,27,550,393,1815,Developer,Cooking,6730,4050
+U037,Germany,Male,28,2534,274,40,Entrepreneur,Photography,9353,594
+U038,Australia,Non-binary,51,677,507,1201,Entrepreneur,Dancing,1064,2169
+U039,India,Female,14,2769,726,1323,Designer,Traveling,5877,2254
+U040,Canada,Female,25,3901,156,1697,Designer,Cooking,6029,3153
+U041,Canada,Non-binary,35,2245,26,1972,Entrepreneur,Music,2754,1447
+U042,UK,Non-binary,51,1396,45,1800,Artist,Traveling,9755,401
+U043,UK,Male,43,902,596,1992,Designer,Sports,6636,3821
+U044,France,Non-binary,35,3445,725,1289,Scientist,Cycling,8461,3847
+U045,Brazil,Male,63,1603,776,1160,Artist,Music,1730,681
+U046,South Africa,Non-binary,31,308,711,210,Artist,Gaming,2209,1943
+U047,Australia,Non-binary,36,3835,253,1326,Teacher,Cycling,7284,3272
+U048,Canada,Male,46,1153,668,1115,Artist,Dancing,9236,3275
+U049,South Africa,Male,32,3064,531,1556,Developer,Cycling,3448,1177
+U050,South Africa,Female,61,3373,894,1940,Artist,Gaming,151,2526
+U051,Brazil,Female,25,4628,519,1231,Designer,Cycling,7941,2653
+U052,UK,Male,45,2961,944,1502,Scientist,Sports,5770,2023
+U053,UK,Non-binary,25,4611,609,1194,Designer,Music,4208,3189
+U054,India,Female,35,4798,113,1210,Designer,Photography,1913,2101
+U055,Japan,Male,42,2232,580,998,Artist,Painting,4401,2234
+U056,Germany,Female,19,1390,537,528,Entrepreneur,Painting,8415,2775
+U057,France,Non-binary,44,69,636,1307,Teacher,Painting,9339,1147
+U058,Australia,Female,64,1338,384,852,Engineer,Music,269,3135
+U059,UK,Non-binary,54,1557,154,1143,Scientist,Traveling,6118,2526
+U060,Canada,Non-binary,59,411,5,1673,Engineer,Gaming,8571,4724
+U061,Australia,Female,45,870,134,1105,Scientist,Cooking,5243,1562
+U062,Germany,Non-binary,61,2466,940,1997,Doctor,Cooking,6056,3747
+U063,Australia,Non-binary,13,803,289,1979,Designer,Music,4295,4335
+U064,India,Female,41,3835,196,358,Doctor,Dancing,4280,2376
+U065,South Africa,Non-binary,48,14,82,229,Musician,Cycling,4921,177
+U066,France,Non-binary,24,602,755,1837,Doctor,Cycling,3503,2916
+U067,India,Female,62,2831,339,709,Scientist,Cooking,5039,1102
+U068,Australia,Non-binary,28,2381,113,1478,Musician,Reading,6417,580
+U069,India,Non-binary,35,2955,23,1305,Doctor,Painting,5612,4642
+U070,Australia,Male,63,3868,456,540,Teacher,Reading,9206,574
+U071,India,Non-binary,61,1354,156,387,Developer,Traveling,1306,3270
+U072,France,Female,30,762,664,1570,Developer,Photography,5442,758
+U073,South Africa,Non-binary,43,89,58,1576,Scientist,Sports,1731,4869
+U074,Germany,Female,21,1368,585,551,Doctor,Reading,7999,351
+U075,Brazil,Female,28,2808,656,305,Developer,Dancing,8676,2751
+U076,Canada,Female,27,1032,393,734,Scientist,Sports,6756,1084
+U077,Australia,Non-binary,34,4583,200,10,Developer,Traveling,7818,4579
+U078,Germany,Male,52,1822,412,1427,Artist,Reading,6788,1130
+U079,Canada,Male,21,4843,796,1254,Engineer,Sports,7033,656
+U080,France,Female,51,1768,810,656,Entrepreneur,Reading,984,950
+U081,UK,Female,31,4921,587,441,Entrepreneur,Reading,959,2711
+U082,South Africa,Non-binary,42,2364,851,975,Engineer,Dancing,5165,2437
+U083,Japan,Male,19,597,968,1341,Doctor,Cooking,3206,380
+U084,South Africa,Male,37,4511,396,992,Musician,Photography,2151,566
+U085,UK,Female,34,805,896,1843,Developer,Dancing,1365,3615
+U086,Canada,Female,25,4552,519,101,Musician,Sports,951,2532
+U087,Canada,Male,53,934,340,921,Doctor,Photography,8920,1792
+U088,India,Non-binary,40,4836,518,1377,Scientist,Music,548,4304
+U089,Brazil,Male,44,1418,242,776,Developer,Cooking,6773,3164
+U090,South Africa,Female,41,3915,843,400,Entrepreneur,Traveling,1321,286
+U091,Brazil,Female,19,1635,189,763,Engineer,Music,8366,2950
+U092,France,Male,50,911,170,1018,Entrepreneur,Cycling,8663,2179
+U093,South Africa,Female,23,4299,657,876,Doctor,Dancing,6232,4207
+U094,France,Female,53,1051,64,466,Developer,Sports,4004,2523
+U095,France,Male,37,2042,602,962,Designer,Reading,934,528
+U096,South Africa,Non-binary,25,3093,385,1707,Writer,Sports,38,2666
+U097,France,Female,43,3765,956,681,Developer,Cycling,1810,4997
+U098,Canada,Male,24,1924,723,733,Scientist,Painting,2373,2584
+U099,UK,Non-binary,44,3697,144,973,Developer,Sports,5194,185
+U100,Australia,Non-binary,37,2765,480,724,Teacher,Dancing,4189,4507
+U101,UK,Female,62,290,384,1891,Artist,Cooking,499,192
+U102,Canada,Male,54,235,303,1250,Designer,Cooking,140,3045
+U103,India,Male,40,4802,17,224,Developer,Painting,9207,3016
+U104,Japan,Female,65,1481,580,1196,Developer,Cycling,180,144
+U105,Australia,Male,48,3250,311,924,Designer,Photography,7986,1499
+U106,Australia,Male,56,1381,188,1041,Musician,Dancing,1700,4862
+U107,Japan,Non-binary,35,816,450,872,Musician,Traveling,543,4879
+U108,Canada,Non-binary,60,3179,806,831,Scientist,Gaming,8706,2103
+U109,France,Male,49,2204,126,659,Teacher,Music,921,161
+U110,South Africa,Female,60,3202,443,1596,Doctor,Dancing,6323,3043
+U111,USA,Female,46,4160,828,1902,Designer,Traveling,4785,3960
+U112,France,Female,40,3578,622,87,Artist,Cycling,3089,4931
+U113,Brazil,Male,61,1772,819,24,Writer,Painting,2225,359
+U114,Germany,Female,16,4481,362,1591,Writer,Dancing,5315,1718
+U115,Japan,Male,58,4048,20,1650,Artist,Painting,9562,1997
+U116,UK,Non-binary,45,4969,146,89,Scientist,Traveling,2904,2621
+U117,France,Female,16,68,495,485,Designer,Cooking,142,3107
+U118,France,Female,21,3501,665,891,Developer,Dancing,5153,3414
+U119,Brazil,Female,31,3068,518,1392,Engineer,Photography,1451,1297
+U120,Australia,Female,43,3342,420,910,Doctor,Traveling,4179,4098
+U121,UK,Non-binary,53,3448,164,1180,Artist,Reading,4664,1201
+U122,Australia,Male,52,4782,784,1055,Writer,Music,4613,3564
+U123,Japan,Male,42,4818,210,139,Developer,Cycling,2301,3795
+U124,South Africa,Male,56,1975,82,658,Scientist,Dancing,8718,2920
+U125,Brazil,Non-binary,18,179,662,1191,Doctor,Cycling,9455,4689
+U126,Germany,Male,18,1133,651,1390,Teacher,Cycling,2948,2443
+U127,Germany,Male,31,1504,147,290,Musician,Gaming,672,676
+U128,USA,Male,56,3683,529,143,Doctor,Dancing,7649,4304
+U129,Australia,Female,37,2259,715,929,Musician,Cooking,9252,1619
+U130,Japan,Female,16,4749,97,718,Teacher,Traveling,4602,1413
+U131,South Africa,Female,64,1838,324,441,Artist,Gaming,5756,2168
+U132,Canada,Female,53,429,531,64,Developer,Sports,2455,1507
+U133,Germany,Male,53,330,871,282,Designer,Reading,7186,366
+U134,Canada,Female,48,1608,516,1668,Scientist,Dancing,3294,1792
+U135,France,Non-binary,29,3879,373,121,Writer,Traveling,1332,1986
+U136,Germany,Female,41,4433,638,911,Musician,Gaming,7798,2864
+U137,Japan,Female,25,2898,919,959,Writer,Reading,2748,4233
+U138,South Africa,Non-binary,63,1722,175,553,Designer,Cycling,1624,4556
+U139,Australia,Non-binary,30,2014,624,371,Developer,Music,2810,1948
+U140,France,Non-binary,54,4455,733,549,Entrepreneur,Music,4281,4930
+U141,UK,Non-binary,61,2971,910,1947,Engineer,Dancing,2098,324
+U142,USA,Male,18,4207,958,1424,Artist,Sports,7077,70
+U143,Australia,Male,61,3557,101,877,Teacher,Gaming,4686,4865
+U144,Australia,Female,50,251,904,852,Doctor,Dancing,3662,2787
+U145,Canada,Male,15,3004,716,1780,Doctor,Cooking,3094,723
+U146,France,Female,39,3783,437,1164,Writer,Music,235,4655
+U147,Australia,Female,39,2887,604,1512,Entrepreneur,Gaming,5357,1453
+U148,UK,Non-binary,47,4647,119,379,Entrepreneur,Photography,4493,3639
+U149,South Africa,Male,39,2604,185,1146,Artist,Cooking,4306,1525
+U150,France,Male,37,2125,110,1385,Teacher,Dancing,9836,281
+U151,USA,Male,44,4068,448,1084,Entrepreneur,Reading,9052,4410
+U152,UK,Male,38,1427,954,1082,Doctor,Gaming,3378,3651
+U153,Brazil,Male,45,22,304,1642,Developer,Painting,9212,2329
+U154,UK,Male,31,1461,819,1184,Developer,Gaming,2852,701
+U155,Australia,Female,32,3653,536,974,Musician,Gaming,5856,341
+U156,Canada,Non-binary,49,2507,497,361,Designer,Music,5562,2545
+U157,South Africa,Non-binary,28,1208,479,144,Teacher,Dancing,4455,3737
+U158,Brazil,Female,22,740,598,85,Scientist,Cycling,7731,199
+U159,Australia,Male,64,901,116,903,Teacher,Dancing,260,2644
+U160,USA,Female,15,3684,951,1036,Doctor,Painting,4978,3301
+U161,South Africa,Male,47,2790,729,1529,Engineer,Music,1855,4073
+U162,Germany,Female,25,3284,116,1862,Doctor,Cycling,4747,1803
+U163,India,Female,55,176,624,1860,Designer,Cycling,2144,1017
+U164,Australia,Female,40,256,732,1971,Teacher,Cooking,9355,3726
+U165,Canada,Female,20,2421,706,693,Artist,Dancing,4499,997
+U166,UK,Female,30,198,158,466,Teacher,Painting,9398,2985
+U167,Japan,Non-binary,23,3674,450,274,Musician,Gaming,9592,2760
+U168,Canada,Female,59,2016,446,1550,Scientist,Gaming,632,1270
+U169,France,Male,60,3382,675,1429,Engineer,Sports,7133,1208
+U170,Brazil,Non-binary,26,1684,759,770,Writer,Painting,4823,372
+U171,Germany,Non-binary,56,827,267,1577,Entrepreneur,Painting,3581,3993
+U172,Australia,Male,51,3985,859,1101,Writer,Gaming,5204,4868
+U173,France,Female,43,2131,622,1589,Teacher,Painting,2026,4017
+U174,Australia,Male,51,4991,713,1827,Artist,Music,3703,3615
+U175,South Africa,Non-binary,21,2347,60,298,Musician,Traveling,3938,4780
+U176,Australia,Male,65,992,801,1971,Scientist,Cycling,286,2284
+U177,USA,Female,29,533,714,1253,Scientist,Traveling,3887,2795
+U178,Germany,Female,62,2773,339,679,Developer,Cycling,9043,4387
+U179,France,Non-binary,22,3430,987,1331,Developer,Cooking,6519,4217
+U180,USA,Female,60,1742,263,686,Musician,Photography,5175,1091
+U181,UK,Non-binary,18,3187,543,753,Scientist,Dancing,522,946
+U182,India,Male,27,4807,211,533,Teacher,Photography,4514,2821
+U183,Germany,Male,52,3899,51,898,Teacher,Reading,9157,3294
+U184,USA,Female,45,3191,441,1577,Doctor,Traveling,6683,1927
+U185,South Africa,Male,54,3655,431,497,Artist,Reading,5462,1379
+U186,France,Female,22,1407,439,46,Musician,Cycling,6761,1059
+U187,UK,Male,51,1544,621,922,Doctor,Gaming,4473,644
+U188,Canada,Non-binary,65,2995,876,1078,Musician,Traveling,4941,1938
+U189,UK,Non-binary,16,3543,25,440,Scientist,Photography,8667,3592
+U190,France,Non-binary,46,1694,394,11,Designer,Reading,1789,4927
+U191,Australia,Male,34,4451,165,1487,Designer,Sports,1155,3993
+U192,Brazil,Non-binary,38,66,995,1267,Engineer,Music,4593,3995
+U193,Brazil,Non-binary,39,3661,669,901,Writer,Photography,9054,3543
+U194,Germany,Male,22,1025,461,604,Musician,Reading,5908,2560
+U195,Australia,Female,26,662,31,69,Musician,Dancing,2085,2667
+U196,USA,Male,27,1283,315,1060,Entrepreneur,Gaming,4769,1796
+U197,Australia,Non-binary,52,3819,586,73,Scientist,Traveling,7017,3035
+U198,France,Female,48,3713,709,1368,Developer,Music,5747,1974
+U199,Japan,Male,16,4490,100,1168,Developer,Gaming,6314,4241
+U200,South Africa,Non-binary,18,1917,280,483,Writer,Gaming,4551,441

@@ -1,0 +1,251 @@
+=== JSON SCHEMA ===
+{
+  "database": "text_to_sql",
+  "tables": [
+    {
+      "name": "customers",
+      "columns": [
+        {
+          "name": "customer_id",
+          "data_type": "INTEGER",
+          "nullable": false,
+          "primary_key": true,
+          "default": null
+        },
+        {
+          "name": "name",
+          "data_type": "VARCHAR(255)",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "email",
+          "data_type": "VARCHAR(255)",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "city",
+          "data_type": "VARCHAR(100)",
+          "nullable": true,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "state",
+          "data_type": "VARCHAR(100)",
+          "nullable": true,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "signup_date",
+          "data_type": "DATE",
+          "nullable": true,
+          "primary_key": false,
+          "default": null
+        }
+      ],
+      "foreign_keys": []
+    },
+    {
+      "name": "order_items",
+      "columns": [
+        {
+          "name": "order_item_id",
+          "data_type": "INTEGER",
+          "nullable": false,
+          "primary_key": true,
+          "default": null
+        },
+        {
+          "name": "order_id",
+          "data_type": "INTEGER",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "product_id",
+          "data_type": "INTEGER",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "quantity",
+          "data_type": "INTEGER",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "unit_price",
+          "data_type": "FLOAT",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        }
+      ],
+      "foreign_keys": [
+        {
+          "column": "order_id",
+          "referred_table": "orders",
+          "referred_column": "order_id"
+        },
+        {
+          "column": "product_id",
+          "referred_table": "products",
+          "referred_column": "product_id"
+        }
+      ]
+    },
+    {
+      "name": "orders",
+      "columns": [
+        {
+          "name": "order_id",
+          "data_type": "INTEGER",
+          "nullable": false,
+          "primary_key": true,
+          "default": null
+        },
+        {
+          "name": "customer_id",
+          "data_type": "INTEGER",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "order_date",
+          "data_type": "DATETIME",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "payment_method",
+          "data_type": "VARCHAR(50)",
+          "nullable": true,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "status",
+          "data_type": "VARCHAR(50)",
+          "nullable": true,
+          "primary_key": false,
+          "default": null
+        }
+      ],
+      "foreign_keys": [
+        {
+          "column": "customer_id",
+          "referred_table": "customers",
+          "referred_column": "customer_id"
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "columns": [
+        {
+          "name": "product_id",
+          "data_type": "INTEGER",
+          "nullable": false,
+          "primary_key": true,
+          "default": null
+        },
+        {
+          "name": "product_name",
+          "data_type": "VARCHAR(255)",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "category",
+          "data_type": "VARCHAR(100)",
+          "nullable": true,
+          "primary_key": false,
+          "default": null
+        },
+        {
+          "name": "price",
+          "data_type": "FLOAT",
+          "nullable": false,
+          "primary_key": false,
+          "default": null
+        }
+      ],
+      "foreign_keys": []
+    }
+  ]
+}
+
+=== TEXT SCHEMA ===
+Database: text_to_sql
+
+Table: customers
+Columns:
+- customer_id (INTEGER, PRIMARY KEY, NOT NULL)
+- name (VARCHAR(255), NOT NULL)
+- email (VARCHAR(255), NOT NULL)
+- city (VARCHAR(100))
+- state (VARCHAR(100))
+- signup_date (DATE)
+
+Table: order_items
+Columns:
+- order_item_id (INTEGER, PRIMARY KEY, NOT NULL)
+- order_id (INTEGER, NOT NULL, FOREIGN KEY → orders.order_id)
+- product_id (INTEGER, NOT NULL, FOREIGN KEY → products.product_id)
+- quantity (INTEGER, NOT NULL)
+- unit_price (FLOAT, NOT NULL)
+
+Table: orders
+Columns:
+- order_id (INTEGER, PRIMARY KEY, NOT NULL)
+- customer_id (INTEGER, NOT NULL, FOREIGN KEY → customers.customer_id)
+- order_date (DATETIME, NOT NULL)
+- payment_method (VARCHAR(50))
+- status (VARCHAR(50))
+
+Table: products
+Columns:
+- product_id (INTEGER, PRIMARY KEY, NOT NULL)
+- product_name (VARCHAR(255), NOT NULL)
+- category (VARCHAR(100))
+- price (FLOAT, NOT NULL)
+
+=== RAG DOCUMENTS ===
+Document 1:
+Table: customers
+Description:
+Contains information about customers, including customer_id, name, email, city, state and signup_date.
+---
+Document 2:
+Table: order_items
+Description:
+Contains information about order_items, including order_item_id, order_id, product_id, quantity and unit_price.
+
+Relationship:
+order_items.order_id → orders.order_id
+order_items.product_id → products.product_id
+---
+Document 3:
+Table: orders
+Description:
+Contains information about orders, including order_id, customer_id, order_date, payment_method and status.
+
+Relationship:
+orders.customer_id → customers.customer_id
+---
+Document 4:
+Table: products
+Description:
+Contains information about products, including product_id, product_name, category and price.
+---
